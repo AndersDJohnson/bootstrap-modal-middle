@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+
+    <link rel="stylesheet" type="text/css"
+      href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!--- ->
+    <link rel="stylesheet" type="text/css"
+      href="bower_components/bootstrap-modal/css/bootstrap-modal-bs3patch.css" />
+    <!--- ->
+    <link rel="stylesheet" type="text/css"
+      href="bower_components/bootstrap-modal/css/bootstrap-modal.css" />
+    <!---->
+    <link rel="stylesheet" type="text/css"
+      href="index.css" />
+
+    <script
+      src="bower_components/jquery/dist/jquery.js"></script>
+    <script
+      src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script
+      src="bower_components/bootstrap3-dialog/js/bootstrap-dialog.js"></script>
+    <!--
+    <script
+      src="bower_components/bootstrap-modal/js/bootstrap-modalmanager.js"></script>
+    <script
+      src="bower_components/bootstrap-modal/js/bootstrap-modal.js"></script>
+    -->
+    <!--
+    <script
+      src="bower_components/bootbox/bootbox.js"></script>
+    -->
+    <script src="index.js"></script>
+  </head>
+  <body>
+
+    <div class="page">
+      <button data-toggle="modal" data-target="#modal-short">
+        Modal Short
+      </button>
+      <button data-toggle="modal" data-target="#modal-long">
+        Modal Long
+      </button>
+      
+      <p class="ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+
+    <div id="modal-short" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <p>One fine body…</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="modal-long" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title">Modal title</h4>
+          </div>
+          <div class="modal-body">
+            <p>One fine body…</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+  </body>
+</html>

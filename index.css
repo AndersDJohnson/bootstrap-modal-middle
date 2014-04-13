@@ -1,0 +1,30 @@
+body {
+  background: red;
+}
+
+.page button {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-middle {
+    z-index: -1050;
+    display: block;
+    overflow-x: hidden;
+  }
+
+  .modal-middle.in {
+    z-index: 1050;
+  }
+
+  .modal-middle.modal-middle-short .modal-dialog {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+
+  .modal-middle.modal-middle-short .modal-content {
+    position: relative;
+    left: -50%;
+  }
+}
