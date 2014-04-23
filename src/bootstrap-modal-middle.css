@@ -1,22 +1,29 @@
-@media screen and (min-width: 768px) {
-  .modal-middle {
-    z-index: -1050;
-    display: block !important;
-    overflow-x: hidden;
-  }
 
-  .modal-middle.in {
-    z-index: 1050;
-  }
+.modal-middle {
+  z-index: -1050;
+  display: block !important;
+  overflow-x: hidden;
+}
 
+.modal-middle.in {
+  z-index: 1050;
+}
+
+.modal-middle.modal-middle-short .modal-dialog {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.modal-middle.modal-middle-short .modal-content {
+  position: relative;
+  left: -50%;
+}
+
+@media screen and (max-width: 768px) {
   .modal-middle.modal-middle-short .modal-dialog {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-  }
-
-  .modal-middle.modal-middle-short .modal-content {
-    position: relative;
-    left: -50%;
+    width: 100%;
+    margin-left: -10px;
+    padding: 10px;
   }
 }
