@@ -3,6 +3,8 @@ bootstrap-modal-middle
 
 Center [Bootstrap] modals in the vertical middle of the screen.
 
+Supports Bootstrap 3.
+
 ## Example
 
 Demo: https://AndersDJohnson.github.io/bootstrap-modal-middle/example
