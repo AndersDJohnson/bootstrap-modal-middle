@@ -11,9 +11,6 @@
   ],
   "dependencies": {
     "jquery": "~2.1.0",
-    "bootstrap": "~3.1.1",
-    "bootstrap-modal": "https://github.com/jschr/bootstrap-modal.git#47cb49a43fcf6e2c4cea40b9a65ac6595b3cc06b",
-    "bootbox": "~4.2.0",
-    "bootstrap3-dialog": "nakupanda/bootstrap3-dialog"
+    "bootstrap": "~3.1.1"
   }
 }
