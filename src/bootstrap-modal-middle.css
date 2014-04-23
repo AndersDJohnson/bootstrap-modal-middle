@@ -1,15 +1,7 @@
-body {
-  background: red;
-}
-
-.page button {
-  width: 100%;
-}
-
 @media screen and (min-width: 768px) {
   .modal-middle {
     z-index: -1050;
-    display: block;
+    display: block !important;
     overflow-x: hidden;
   }
 
