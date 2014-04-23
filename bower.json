@@ -2,6 +2,10 @@
   "name": "bs-modal",
   "version": "0.0.0",
   "license": "MIT",
+  "main": [
+    "src/bootstrap-modal-middle.js",
+    "src/bootstrap-modal-middle.css"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
