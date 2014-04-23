@@ -13,7 +13,7 @@ $.fn.modalMiddle = function () {
       var windowHeight = $window.height();
       var windowWidth = $window.width();
       var dialogHeight = $dialog.outerHeight(true);
-      if (windowWidth >= 768 && windowHeight > dialogHeight) {
+      if (windowHeight > dialogHeight) {
         $modal.addClass('modal-middle-short');
         $modalContent.css('top', dialogHeight / -2 );
       }
@@ -21,6 +21,10 @@ $.fn.modalMiddle = function () {
         $modal.removeClass('modal-middle-short');
         $modalContent.css('top', '');
       }
+      // if (windowWidth >= 768) {
+      // }
+      // else {
+      // }
     };
 
     onResize();
